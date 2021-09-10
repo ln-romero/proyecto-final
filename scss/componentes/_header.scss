@@ -1,0 +1,56 @@
+@import "../base/mapas";
+
+h1{ 
+    display: flex;
+    color:#FFFF;
+    font-family: map-get($general , fuente);
+    font-weight: map-get($general , peso-tipo-h1 );
+    font-size: map-get($general , tamaño-tipo-h1 );
+    margin-left: 70px;
+    margin-top: 15rem;
+}
+
+.menu-container{
+    width: 100%;
+    background-color: map-get($general , bg-color );
+    display: map-get($general , display );
+    justify-content: flex-end;
+    margin-top: 0%;
+    position: fixed;
+}
+
+.menu{
+    width: 100%;
+    display: map-get($general , display );
+    justify-content:center;
+    
+}
+
+.menu-container ul {
+    display: map-get($general , display );
+}
+
+.menu-container li{
+    list-style: none;
+    margin: 24px;
+}
+
+.logo{
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 40px;
+    height: 20px;
+    display: map-get($general , display);
+    justify-content: start;
+}
+
+.cover{
+    min-height: 1150px;
+    width: 100%;
+    background-image: url("../images/cover-kickapp.png");
+    background-size: cover;
+    padding-top: 10rem;
+    display: map-get($general , display );
+    align-items: flex-start;
+    flex-direction:column;
+}

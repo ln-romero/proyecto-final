@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.tipo {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
+
+.footer {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+ul {
+  color: black;
+  font-family: "Inter", sans-serif;
+  text-align: left;
+  word-spacing: 30px;
+}
+
+h1 {
+  display: flex;
+  color: #FFFF;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 50px;
+  margin-left: 70px;
+  margin-top: 15rem;
+}
+
+.menu-container {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0%;
+  position: fixed;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-container ul {
+  display: flex;
+}
+
+.menu-container li {
+  list-style: none;
+  margin: 24px;
+}
+
+.logo {
+  margin-top: 24px;
+  margin-left: 24px;
+  width: 40px;
+  height: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.cover {
+  min-height: 1150px;
+  width: 100%;
+  background-image: url("../images/cover-kickapp.png");
+  background-size: cover;
+  padding-top: 10rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.h2 {
+  color: black;
+}
+
+.h2-titulo {
+  display: flex;
+  justify-content: center;
+  margin-top: 64px;
+  margin-bottom: 32px;
+  margin-left: 70px;
+  font-family: "inter", sans-serif;
+}
+
+.style-paragraph {
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  margin-top: 24px;
+  margin-left: 70px;
+}
+
+.button-1 {
+  align-content: center;
+  margin-top: 24px;
+  margin-bottom: 100px;
+  margin-left: 70px;
+}
+
+button {
+  font-family: "Inter", sans-serif;
+  color: blueviolet;
+  padding: 10px;
+  margin-top: auto;
+}
+
+.colorButton {
+  color: blueviolet;
+}
+
+.calendario-grid-container {
+  margin-top: 20rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 1%;
+  grid-template-rows: auto auto;
+  grid-row-gap: 1%;
+  width: 100%;
+}
+
+.calendario-grid-container img {
+  width: 100%;
+}
+
+.title-container h2 {
+  color: #7A5BF5;
+}
+
+.card-img-top {
+  border-radius: 20px;
+}
+
+.card {
+  border-color: #E5E5E5;
+  border-radius: 20px;
+}
+
+h5 {
+  font-weight: 550;
+}
+
+.card-text {
+  font-weight: 400;
+}
+
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  background-color: #7A5BF5;
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #5026f7;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 24px;
+}
+
+a:hover {
+  color: #5026f7;
+}
+
+/*# sourceMappingURL=style.css.map */
